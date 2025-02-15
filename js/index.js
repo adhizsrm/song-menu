@@ -13,5 +13,5 @@ const playlistHtml = playlistArr.map(function(el){
     </div>
 </section>
     `
-});
+}).join('');
 document.getElementById('container').innerHTML = playlistHtml;
